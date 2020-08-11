@@ -1,0 +1,32 @@
+.c-button {
+	all: unset;
+	min-height: 35px;
+	text-align: center;
+	background: $car-accent;
+	border-radius: 5px;
+	color: #fff;
+}
+.c-button__default {
+	all: unset;
+	cursor: pointer;
+	width: 100%;
+	min-height: 35px;
+	text-align: center;
+	background: $car-accent;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.c-button__custom {
+	all: unset;
+	transition-delay: 0.5s;
+	transition: 0.5s;
+	float: right;
+	clear: right;
+	width: 35%;
+	min-height: 35px;
+	text-align: center;
+	background: $car-accent;
+	border-radius: 5px;
+	color: #fff;
+}

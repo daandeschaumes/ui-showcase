@@ -1,0 +1,29 @@
+.c-deal {
+	background-color: $secondary;
+	display: grid;
+	min-height: 125px;
+	border-radius: 8px;
+	grid-template-columns: 280px 1fr;
+}
+
+.c-deal__info {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.c-deal__info--header {
+	color: $highlight;
+}
+
+.c-deal__map {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.c-deal__map--image {
+	align-self: center;
+	max-width: 100px;
+	max-height: 100px;
+}

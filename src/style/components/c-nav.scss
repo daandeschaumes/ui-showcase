@@ -1,0 +1,30 @@
+.c-nav__list {
+	padding: 0;
+	margin-left: 7px;
+	padding-bottom: 7px;
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba($color: $color-dark, $alpha: 0.1);
+	list-style-type: none;
+}
+.c-nav__options {
+	color: rgba($color-dark, 0.2);
+}
+
+.selectedOption {
+	transition: 0.5s;
+	margin-left: 82px;
+}
+
+.selectedOptionEngines {
+	transition: 0.5s;
+	margin-left: 165px;
+}
+.c-nav__line {
+	margin-top: 25px;
+	position: absolute;
+	transition: 0.5s;
+	width: 50px;
+	border: 1px solid $car-accent;
+}

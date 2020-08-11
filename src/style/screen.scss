@@ -1,0 +1,24 @@
+//settings
+@import './settings/colors.scss';
+//tools
+
+//generic
+@import './generic/reset.scss';
+
+//objects
+@import './objects/grid.scss';
+//components
+@import './components/c-app.scss';
+@import './components/c-deal.scss';
+@import './components/c-button.scss';
+@import './components/c-car.scss';
+@import './components/c-nav.scss';
+@import './components/c-color-options.scss';
+@import './components/c-strechtedimg.scss';
+@import './components/c-content.scss';
+@import './components/phonenav.scss';
+@import './components/header.scss';
+@import './components/c-specifications.scss';
+@import './elements/page.scss';
+
+@import './utilities/grid-main-layout.scss';

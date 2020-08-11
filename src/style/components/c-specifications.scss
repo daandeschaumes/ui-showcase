@@ -1,0 +1,23 @@
+.c-specifications {
+	margin-bottom: 25px;
+	display: flex;
+}
+
+.c-specifications__detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 100%;
+}
+
+.c-specifications__detail--header {
+	font-size: 10px;
+	color: rgba($color: $color-dark, $alpha: 0.4);
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.c-specifications__detail--value {
+	font-size: 20px;
+}
